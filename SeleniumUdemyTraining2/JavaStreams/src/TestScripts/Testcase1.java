@@ -1,0 +1,31 @@
+package TestScripts;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Testcase1 {
+
+	public static void main(String[] args) throws IOException  {
+		// TODO Auto-generated method stub
+		
+		
+		Properties prop = new Properties();
+		//FileInputStream fis = new FileInputStream("C:\\Users\\Saavithri V Nathan\\eclipse-workspace\\SeleniumUdemyTraining2\\JavaStreams\\src\\Config\\objects.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+ "\\src\\Config\\objects.properties");
+		   
+		prop.load(fis);
+        
+        
+        
+        
+        System.out.println(prop.getProperty("Name"));
+        // provide directory information 
+        System.out.println(System.getProperty("user.dir"));
+        
+        }
+        
+	}
+
+

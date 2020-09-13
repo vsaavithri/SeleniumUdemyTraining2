@@ -1,0 +1,31 @@
+package checkConstructors;
+
+public class Sample {
+	
+	
+	 String name1 = "Sairam";
+ int emp_id = 1000;
+	  
+	  
+	  public   void display(String name1, int emp_id)
+		{
+			
+			System.out.println("The name is "+name1);
+			System.out.println("The emp id is " + emp_id);
+		}
+
+	public static void main(String[] args) {
+		
+		
+		
+		Sample s = new Sample();
+		s.display("Sai",12);
+		
+		
+		
+			
+
+
+	}
+
+}

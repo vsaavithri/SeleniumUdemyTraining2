@@ -1,0 +1,51 @@
+package UT2;
+
+public class Calculator {
+	
+	public Calculator()
+	
+	{
+		System.out.println("Calling Constructor");
+		
+		
+	}
+	
+
+	
+	public void add () 
+	
+	{
+		
+		System.out.println("Adding some numbers");
+	}
+	
+	public void Sub () {
+		System.out.println("Subratcting  some numbers");
+		
+	}
+	
+	public void Mul()
+	{
+		System.out.println("Multiplying  some numbers");
+	}
+	
+	public void Div()
+	{
+		System.out.println("Dividing  some numbers");
+	}
+	
+	public static void main(String[] args) {
+		// Create methods for calculator
+		System.out.println("SaiYogiRam - the Calculator is working as follows");
+		
+		Calculator calc = new Calculator();
+		calc.add();
+		calc.Sub();
+		calc.Mul();
+		calc.Div();
+		
+		
+
+}
+	
+}

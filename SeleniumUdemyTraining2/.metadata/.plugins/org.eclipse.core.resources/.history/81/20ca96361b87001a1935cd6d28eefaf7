@@ -1,0 +1,21 @@
+package accessModifier1;
+
+ class ClassA {
+	
+	private int privatevariable = 10;
+	public int  publicvariable = 20;
+	 int defaultvariable = 30;
+	protected int protectevariable = 40;
+	
+	
+	public void showA()
+	{
+		System.out.println("Hello ShowA");
+		
+	}
+	
+	
+	
+	
+
+}

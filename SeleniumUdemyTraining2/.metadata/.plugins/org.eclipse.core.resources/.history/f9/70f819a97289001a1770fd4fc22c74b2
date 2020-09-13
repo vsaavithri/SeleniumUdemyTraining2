@@ -1,0 +1,41 @@
+package CheckInterface;
+
+public class child2 implements Parent1, Parent2{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		child2 ch = new child2();
+		ch.show4();
+		ch.show3();
+		
+
+	}
+
+	@Override
+	public void show3() {
+		System.out.println("Test for show3");
+	}
+
+	@Override
+	public void show4() {
+		// TODO Auto-generated method stub
+		System.out.println("Test for show4");
+		
+	}
+
+	@Override
+	public void show1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void show2() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

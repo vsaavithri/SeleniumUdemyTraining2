@@ -1,0 +1,5 @@
+package CheckInterface;
+
+public interface Parent2 {
+
+}

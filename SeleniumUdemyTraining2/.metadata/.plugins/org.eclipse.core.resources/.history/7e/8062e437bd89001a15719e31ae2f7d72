@@ -1,0 +1,19 @@
+package checkConstructors;
+
+public class School {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student st1 = new Student("S", 100);
+		Student st2 = new Student("V", 101);
+		Student st3 = new Student("P", 102);
+		
+		System.out.println(st1.getSname());
+		System.out.println(st2.getSname());
+		System.out.println(st3.getSname());
+		
+	}
+
+}

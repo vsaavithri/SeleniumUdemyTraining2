@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestBrowserChrome.java&apos; to &apos;ZplusFirstMaven/src/test/java/MavenTestCases&apos;&#x0D;&#x0A;- Original project: &apos;Selenium3&apos;&#x0D;&#x0A;- Destination element: &apos;ZplusFirstMaven/src/test/java/MavenTestCases&apos;&#x0D;&#x0A;- Original element: &apos;testcase.TestBrowserChrome.java&apos;" description="Copy compilation unit" destination="=ZplusFirstMaven/src\/test\/java&lt;MavenTestCases" element1="/src&lt;testcase{TestBrowserChrome.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1589293030878" units="1" version="1.0"/>
+</session>

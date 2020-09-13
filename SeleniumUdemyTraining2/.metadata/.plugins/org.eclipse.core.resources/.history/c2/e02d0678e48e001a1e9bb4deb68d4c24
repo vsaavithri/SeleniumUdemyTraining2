@@ -1,0 +1,17 @@
+package javaCollections;
+
+import java.util.ArrayList;
+
+public class CheckArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList list = New ArrayList();
+		System.out.println(list);
+		
+		
+
+	}
+
+}

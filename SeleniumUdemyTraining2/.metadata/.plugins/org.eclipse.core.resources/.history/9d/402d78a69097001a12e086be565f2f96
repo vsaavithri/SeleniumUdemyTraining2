@@ -1,0 +1,32 @@
+package findingWebElements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PrintingDropDownList {
+
+	public static void main(String[] args) {
+		
+		
+       WebDriverManager.chromedriver().setup();
+       WebDriver driver = new ChromeDriver();
+       
+       driver.get("https://https://www.wikipedia.org");
+       
+       
+       
+       WebElement web1 = driver.findElement(By.id("searchLanguage"));
+       
+		Select select = new Select(web1);
+		select.selectByValue("ar");
+		
+	    
+
+	}
+
+}

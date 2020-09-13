@@ -1,0 +1,28 @@
+package checkConstructors;
+
+public class Student {
+	
+	String Sname = "Rahul";
+	int role_num = 100;
+	
+	public Student() {
+		System.out.println("Starting Constructors");
+	}
+
+	public Student(String sname, int role_num) {
+		
+		this.Sname = Sname;
+		this.role_num = role_num;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student st = new Student();
+		Student st1 = new Student("Rahul", 100);
+		
+		System.out.println(st1.role_num);
+		System.out.println(st1.Sname);
+		
+	}
+
+}

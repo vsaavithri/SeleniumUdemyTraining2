@@ -1,0 +1,51 @@
+package ST2020;
+
+public class StaticAndNonStatic3 {
+	
+	
+	public void go()
+	
+	{
+		System.out.println("Inside Go method");
+		go2();
+	    System.out.println("After Calling Go2 method");
+		
+	}
+	
+	public void go1()
+	
+	{
+		System.out.println("Inside Go1 method");
+		go();
+		System.out.println("After calling go method");
+	}
+
+	
+	public void go2()
+	
+	{
+		System.out.println("Inside Go2 method");
+		
+		
+	}
+	
+	public void go3()
+	
+	{
+		System.out.println("Inside Go3 method");
+		
+		
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StaticAndNonStatic3 m = new StaticAndNonStatic3();
+		m.go1();
+		System.out.println("After calling go1 method");
+            
+	}
+
+}

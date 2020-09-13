@@ -1,0 +1,3 @@
+08/05/2020 21:29:53 DEBUG packetLog4J.TestcaseLog4j - This is a debug log
+08/05/2020 21:29:53 INFO  packetLog4J.TestcaseLog4j - This is a info log
+08/05/2020 21:29:53 ERROR packetLog4J.TestcaseLog4j - There is an error in the project

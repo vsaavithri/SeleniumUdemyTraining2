@@ -1,0 +1,66 @@
+package ST2020;
+
+public class Numbers {
+	
+	static int a = 5;
+	
+	public static void noreturn()
+	{
+		System.out.println("This method has No return type");
+	}
+	
+	public static int Add (int a, int b)
+	{
+		int c;
+		 c = a+ b;
+		 System.out.println("The addition of two number is " + c);
+		 return c;
+		
+	}
+	
+	public static int Sub (int a, int b)
+	{
+		int c;
+		 c = a- b;
+		 System.out.println("The subraction  of two number is " + c);
+		 return c;
+		
+	}
+	
+	
+	public static int mul (int a, int b)
+	{
+		int c;
+		 c = a* b;
+		 System.out.println("The Multiplication  of two number is " + c);
+		 return c;
+		
+	}
+	
+	public static int div (int a, int b)
+	{
+		int c;
+		 c = a/ b;
+		 System.out.println("The Division  of two number is " + c);
+		 return c;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 
+		 *  Numbers num = new Numbers();
+		 *  
+		 *  num.noreturn();
+		num.Add(90,29);
+		num.Sub(24,12);
+		num.mul(5,19);
+		num.div(50,2);
+		 */
+		
+		
+	}
+
+}

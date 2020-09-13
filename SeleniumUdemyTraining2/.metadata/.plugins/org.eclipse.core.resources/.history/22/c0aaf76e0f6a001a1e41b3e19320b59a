@@ -1,0 +1,23 @@
+package Exfiles;
+
+import UST2.Test1;
+
+public class Test3 {
+	
+	public void addme()
+	
+	{
+		
+		System.out.println("This is not the main method");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test1 tc1 = new Test1();
+		
+		tc1.add();
+	}
+	
+	
+
+}

@@ -1,0 +1,40 @@
+package ST2020;
+
+public class StaticAndNonStatic {
+	
+	public static void callme1()
+	{
+		
+		System.out.println("call me1");
+	}
+	
+	
+	public  void callme2()
+	{
+		
+		System.out.println("call me2");
+	}
+	
+	public static void callme3()
+	{
+		
+		System.out.println("call me3");
+	}
+	
+	
+	public static void callme4()
+	{
+		
+		System.out.println("call me4");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		callme1();
+		callme4();
+		
+	}
+	
+
+}

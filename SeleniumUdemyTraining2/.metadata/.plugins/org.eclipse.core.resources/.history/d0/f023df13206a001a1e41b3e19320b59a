@@ -1,0 +1,13 @@
+package package2;
+
+public class banking2 {
+	
+	Calculator2 calc = new Calculator2();
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

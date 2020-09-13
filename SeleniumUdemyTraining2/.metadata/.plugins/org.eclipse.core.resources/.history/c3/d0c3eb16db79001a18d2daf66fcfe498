@@ -1,0 +1,42 @@
+package ST2020;
+
+public class InstlocalVari {
+	
+	static int  i = 10;
+	
+	
+	public static void test1()
+	
+	{
+		int i = 12;
+		System.out.println("Display for test1 is  " + i);
+	}
+	
+public static void test2()
+	
+	{
+		int i = 13;
+		System.out.println("Display for test 2 is   "+ i);
+	}
+	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		InstlocalVari il = new InstlocalVari();
+		il.test1();
+		il.test2();
+		System.out.println("display in main method as "+ i);	
+		
+		
+		Numbers num = new Numbers();
+		num.a++;
+		
+		Numbers num1 = new Numbers();
+		num1.a++;
+		
+System.out.println(num1.a);
+	}
+
+}

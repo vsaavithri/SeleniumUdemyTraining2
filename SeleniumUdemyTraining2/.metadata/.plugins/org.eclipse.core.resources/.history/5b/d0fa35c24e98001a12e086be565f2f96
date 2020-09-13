@@ -1,0 +1,36 @@
+package findingWebElements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PrintingLinksinBlock {
+
+	public static void main(String[] args) {
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get ("https://www.wikipedia.org/");
+		
+		//Search by xpath for the blocked one -$x("//*[@id='www-wikipedia-org']/div[6]/div[3]/div[12]/a/div[2]/span[2]")
+		// make sure to use single quotes for the 'www-wikepeida -org'
+		
+		WebElement block  = driver.findElement(By.xpath("//*[@id=\"www-wikipedia-org\"]/div[6]/div[3]/div[6]/a/div[2]/span[1]"));
+		
+		java.util.List<WebElement> link1 = block.findElements(By.xpath("//*[@id=\"www-wikipedia-org\"]/div[6]/div[3]/div[6]/a/div[2]/span[1]"));;
+	
+		System.out.println("The Total number of Links is  " + link1.size());
+		
+		for(WebElement link : link1) {
+			
+			System.out.println(link.getText()+ " URL is " + link.getAttribute("href"));
+         }    
+	
+	
+	}
+
+}

@@ -1,0 +1,22 @@
+package ST2020;
+
+public class Numbers {
+	
+	public static int Add (int a, int b)
+	{
+		int c;
+		 c = a+ b;
+		 System.out.println(c);
+		 return c;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Numbers num = new Numbers();
+		num.Add(10, 11);
+		
+	}
+
+}

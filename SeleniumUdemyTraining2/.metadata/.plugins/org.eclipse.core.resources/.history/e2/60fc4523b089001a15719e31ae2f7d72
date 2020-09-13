@@ -1,0 +1,25 @@
+package checkConstructors;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final String name1 = "Sairam";
+		final  int emp_id = 1000;
+		 
+		 
+		 public void  display() {
+			 
+			 
+			 System.out.println("Name is "+ name1);
+		 }
+		
+		
+		Sample s = new Sample();
+		
+
+
+	}
+
+}

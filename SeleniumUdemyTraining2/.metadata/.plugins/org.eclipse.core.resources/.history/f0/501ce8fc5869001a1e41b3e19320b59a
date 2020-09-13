@@ -1,0 +1,50 @@
+package UT2;
+
+public class Calculator {
+	
+	
+	public void Calculator ()
+	
+	{
+		System.out.println("calling Constructors");
+		
+		
+	}
+	
+	Public void Add()
+	{
+		System.out.println("Adding two numbers");
+		
+	}
+	
+	Public void sub()
+	{
+		System.out.println("Subtracting  two numbers");
+		
+	}
+	
+	Public void Mul()
+	{
+		System.out.println("Mutiplyihng  two numbers");
+		
+	}
+	
+	Public void Div()
+	{
+		System.out.println("Dividing  two numbers");
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Calculator Calc = new Calculator();
+		Calc.Add();
+		Calc.sub();
+		Calc.Mul();
+		Calc.Div();
+		
+		
+	}
+
+}

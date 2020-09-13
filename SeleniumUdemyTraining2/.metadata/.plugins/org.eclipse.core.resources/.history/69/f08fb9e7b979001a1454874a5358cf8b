@@ -1,0 +1,53 @@
+package ST2020;
+
+public class Numbers {
+	
+	public static int Add (int a, int b)
+	{
+		int c;
+		 c = a+ b;
+		 System.out.println("The addition of two number is " + c);
+		 return c;
+		
+	}
+	
+	public static int Sub (int a, int b)
+	{
+		int c;
+		 c = a- b;
+		 System.out.println("The subraction  of two number is " + c);
+		 return c;
+		
+	}
+	
+	
+	public static int mul (int a, int b)
+	{
+		int c;
+		 c = a* b;
+		 System.out.println("The Multiplication  of two number is " + c);
+		 return c;
+		
+	}
+	
+	public static int div (int a, int b)
+	{
+		int c;
+		 c = a/ b;
+		 System.out.println("The Division  of two number is " + c);
+		 return c;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Numbers num = new Numbers();
+		num.Add(90,29);
+		num.Sub(24,12);
+		num.mul(5,19);
+		num.div(50,2);
+		
+	}
+
+}

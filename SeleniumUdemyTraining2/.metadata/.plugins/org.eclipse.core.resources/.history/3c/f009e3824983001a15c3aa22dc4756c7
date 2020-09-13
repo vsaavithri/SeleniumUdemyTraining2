@@ -1,0 +1,46 @@
+package ST2020;
+
+public class CheckForIfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a =1; 
+		int b = 5;
+		
+		if (a<b)
+		{
+		
+			System.out.println("A is less than B:");
+			
+		}
+		
+		else
+			
+		{
+			System.out.println("A is NOT less than B:");
+		}
+			
+			
+		int num = (int)(Math.random()*10);
+		System.out.println(num);
+		
+		if (num>20)
+		{
+			System.out.println(num+"Greater than10");
+		
+		}
+		else if (num <5 && num>7)
+		{
+			
+			System.out.println(num+"Greater than 5 and lesser than 7 ");
+	
+		}
+		else
+			System.out.println("number Greater than 6");
+
+	}
+
+}
+
+	

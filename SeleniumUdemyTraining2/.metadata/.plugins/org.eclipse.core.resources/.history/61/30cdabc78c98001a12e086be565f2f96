@@ -1,0 +1,48 @@
+package findingWebElements;
+
+import java.sql.Driver;
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public static WebDriver driver;
+
+public class CheckVisibilityOfElement {
+	
+	
+	
+	
+	public static boolean isElementDisplayed(By by) {
+		
+			driver.FindElements(By.ByXPath("//*[@id=\'js-link-box-en\']/strong"));
+		
+		
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		WebManagerdriver.chromedriver().setup();
+		driver = new ChromeDriver();
+
+		driver.get("https://www.wikipedia.org");
+		
+		// is displayed - checks for the visibility of the element and not the display of that element
+		// is enabled - checks for the enable/disabled feature of that element
+		// is selected - check if an e
+		//Then what is the scope to ensure the element is presnet or not?
+		
+		
+	System.out.println(driver.findElement(By.xpath("//*[@id=\'js-link-box-en\']/strong")).isDisplayed());
+
+
+	}
+
+}
